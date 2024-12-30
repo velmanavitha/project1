@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+             }
+               .el1{
+                background-color: black;
+                width: 100%;
+                position: fixed;
+                height: 10vh;
+                
+              }
+            ul {
+                display: flex;
+                justify-content: space-evenly;
+                list-style-type: none;
+                margin-top: 35px;
+             }
+             li a{
+                text-decoration: none;
+                color: white;
+
+             }
+             li:hover{
+                background-color:bisque; 
+                
+             }
+         img{
+            width: 100%;
+            height: 100%;
+         }
+    
+        body{
+            background-color: white;
+        }
+        h1{
+            padding-top: 10x;
+            
+        }
+        .el3{
+            /* height: 100vh; */
+            padding: 30px;
+            
+            h1{
+                text-align: center;
+            }
+            h2{
+                font-family: sans-serif;
+                
+            }
+          
+            img{
+                width: 50vh;
+                height: 90%;
+                transition: all 2s ; 
+            }
+            img:hover{
+                width: 300px;
+            }
+        }
+        .el333{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 100px;
+            
+        }
+        .el4{
+            padding: 20px;
+            height: 80vh;
+            background-color: rgb(239, 239, 238);
+            display: flex;
+            
+        }
+    
+         .el4a{
+        padding: 50px;
+            flex-basis: 50%;
+         }
+         .el4b{
+            flex-basis: 50%;
+         } 
+         h1{
+                padding-top: 5%;
+                text-align: center;
+                   
+           }
+           p{
+                    text-align: center;
+                    font-size: 20px;
+                    color: rgb(82, 80, 80);
+                } 
+            /* img{
+                width: 100vh;
+                float: left;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+            h1{
+                padding-top: 5%;
+                text-align: center;
+                
+                
+                }
+                p{
+                    text-align: center;
+                    font-size: 20px;
+                    color: rgb(82, 80, 80);
+                } */
+        .en{
+            display: flex;
+            padding: 0px 30px;
+        }
+       .en1{
+           flex-basis: 50%;
+       }
+       .en2{
+           flex-basis: 50%;
+       }
+       .en1a{
+        font-size: 30px;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+       }
+       .en1 h1{
+        text-align: center;
+       }
+       .en2 h1{
+        text-align: center;
+       }
+
+    .em{
+        display: flex;
+        padding: 0px 20px;
+    }
+    .em1{
+        flex-basis: 50%;
+    }
+    .em2{
+        flex-basis: 50%;
+    }
+    .em1a{
+        font-size: 30px;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+    .em1 h1{
+        text-align: center;
+    }
+    .em2 h1{
+        text-align: center;
+    }
+            
+
+         .el7{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 10px 20px;
+            img{
+                transition: all 2s;
+            }
+         }
+         .el7 img:hover{
+            width: 300px;
+         }
+         .navi{
+            display: flex;
+            padding: 10px 50px;
+         }
+         .navi1{
+            flex-basis: 50%;
+            margin: 0px 50px;
+            padding: 0px 50px;
+         }
+         .navi2 img{
+            width: 100%;
+            height: 100%;
+            flex-basis: 50%;
+         }
+         .meet{
+            margin: 0px 0px 50px 0px;
+            
+         }
+        .el9{
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            filter: opacity(80%);
+            text-align: center;
+        }
+        #el9a{
+            width: 100%;
+            height: 40%;
+            color: white;
+            font-weight: lighter;
+            padding: 5%;
+            margin: 5%;
+        }
+        .el9b{
+            color: white;
+            text-align: center;
+            button:hover{
+             background-color: black;
+            color: white;
+            }
+        }
+      #el9a{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding-left: 0%;
+      }
+      @media screen and (width<576px) {
+        
+        .el2{
+            width: 100%;
+            height: fit-content;
+        
+        }
+        .el333{
+            flex-direction: column;
+            height: 100vh;
+            margin-bottom: 40px;
+        }
+        .el4{
+            width: 100%;
+            flex-direction: column;
+            height: fit-content;
+            margin-top: 100px;
+
+        }
+        .en{
+            flex-direction: column;
+        }
+        .em{
+            flex-direction: column;
+        }
+        .el7{
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px 20px;
+        }
+        .navi{
+            display: flex;
+            padding: 10px 50px;
+            flex-direction: column;
+         }
+         .navi1{
+           
+            margin: 0px 50px;
+            padding: 0px 5px;
+         }
+         #el9a{
+            display: grid;
+            grid-template-columns: auto;
+         }
+      }
+      
+    </style>
+</head>
+<body>
+            <div class="el1">
+            <ul>
+                <li><a href="#Specials">SPECIALS</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#chef">CHEF</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+         </div> 
+        <div class="el2">
+         <img src="gusto.png" alt="">
+         </div>
+         <br><br>
+
+         <div class="el3" id="Specials">
+            <div class="el33">
+            <u><h1>OUR SPECIALS</h1></u><br><br><br>
+            </div>
+            <div class="el333">
+            <div class="el3a">
+            <h2>Lorem ipsum dolor</h2><br>
+            <img src="image1.png" alt=""><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="el3b">
+            <h2>Consectetur adipiscing</h2><br>
+            <img src="image2.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="el3c">
+            <h2>Duis sed dapibus</h2><br>
+            <img src="image3.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            </div>
+         </div>
+
+
+
+            
+         <div class="el4" id="about">
+          
+           <div class="el4b "> <img src="table.png" alt="" > </div>
+             <div class="el4a">
+           <u><h1>OUR STORY</h1></u>
+           <br><br>
+           <p>Lorem ipsum dolor sit amet, consectetur</p>
+           <P>adipiscing elit. Duis sed dapibus leo nec</P>
+           <P>ornare diam. Sed commodo nibh ante</P>
+           <P>facilisis bibendum dolor feugiat at. Duis sed</P>
+           <p>dapibus leo nec ornare diam commodo</p>
+           <p>nibh.</p><br><br>
+
+           <p>Lorem ipsum dolor sit amet, consectetur</p>
+           <P>adipiscing elit. Duis sed dapibus leo nec</P>
+           <P>ornare diam. Sed commodo nibh ante</P>
+           <P>facilisis bibendum dolor feugiat at. Duis sed</P>
+           <p>dapibus leo nec ornare.</p>
+           </div>
+        </div>
+        <u><h1><center>MENU</center></h1></u><br><br>
+
+        <div class="en" id="menu">
+            <div class="en1">
+               <u><h1>BREAKFAST</h1></u><br>
+                <p class="en1a">Tortellini Skewers</p>
+                <p class="en1b">$9</p>
+                <p class="en1c">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                <br><br>
+                <p class="en1a">Fried Ravioli</p>
+                <p class="en1b">$7</p>
+                <p class="en1c">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                <br><br>
+                <p class="en1a">Wild Mushroom Arancini</p>
+                <p class="en1b">$9</p>
+                <p class="en1c">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                <br><br>
+                <p class="en1a">Mozzarella Sticks</p>
+                <p class="en1b">$10</p>
+                <p class="en1c">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                <br><br>
+                
+        
+            </div>
+            <div class="en2">
+              <u><h1>MAIN COURSE</h1></u><br>
+                <p class="en1a">Roast Stuffed Chicken</p>
+                <p class="en1b">$18</p>
+                <p class="en1c">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                <br><br>
+                <p class="en1a">Chicken & Mushroom Pasta</p>
+                <p class="en1b">$20</p>
+                <p class="en1c">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                <br><br>
+                <p class="en1a">Beef Lasagne</p>
+                <p class="en1b">$14</p>
+                <p class="en1c">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                <br><br>
+                <p class="en1a">Chicken Goujons</p>
+                <p class="en1b">$19</p>
+                <p class="en1c">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                <br><br>
+             </div>
+        </div>
+        <div class="em">
+            <div class="em1">
+               <u><h1>DINNER</h1></u><br>
+                <p class="em1a">Sesame-Ginger Beef</p>
+                <p class="emlb">$15</p>
+                <p class="em1c">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                <br><br>
+                <p class="em1a">Crispy Fried Chicken</p>
+                <p class="emlb">$17</p>
+                <p class="em1c">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                <br><br>
+                <p class="em1a">Mongolian Shrimp & Broccoli</p>
+                <p class="em1b">$18</p>
+                <p class="em1c">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                <br><br>
+                <p class="em1a">Spicy Coconut Salmon</p>
+                <p class="em1b">$20</p>
+                <p class="em1c">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                <br><br>
+            </div>
+        
+                
+             <div class="em2">
+               <u><h1>DESSERTS</h1></u><br>
+                <p class="em1a">Chocolate Mud Cake</p>
+                 <p class="em1b">$11</p>
+                 <p class="em1c">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                 <br><br>
+                 <p class="em1a">Bourbon-Pecan Tart</p>
+                 <p class="em1b">$14</p>
+                 <p class="em1c">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                <br><br>
+                <p class="em1a">Texas Sheet Cake</p>
+                <p class="em1b">$15</p>
+                <p class="em1c">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                <br><br>
+                <p class="em1a">Vanilla Cheesecake</p>
+                <p class="em1b">$18</p>
+                <p class="em1c">Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                <br><br>
+                </div>
+        </div>
+        
+        
+
+        
+     <div class="el7">
+        <img src="image01.png" alt="">
+        <img src="image02.png" alt="">
+        <img src="image03.png" alt="">
+        <img src="image04.png" alt="">
+        <img src="image05.png" alt="">
+        <img src="image06.png" alt="">
+        <img src="image07.png" alt="">
+        <img src="image08.png" alt="">
+        
+    </div>
+    <br><br><br>
+    <div class="navi" id="chef">
+        <div class="navi1">
+          <u><h1 class="meet">MEET OUR CHEF</h1></u><br><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
+                 facilis possimus voluptatum officiis dolorum ducimus molestiae
+                  culpa voluptatibus nam tempora porro sapiente,
+                 libero ullam quae saepe consequatur qui recusandae repudiandae?
+                </p><br>
+                    
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
+                facilis possimus voluptatum officiis dolorum ducimus molestiae
+                 culpa voluptatibus nam tempora porro sapiente,
+                libero ullam quae saepe consequatur qui recusandae repudiandae?
+                </p>
+          </div>
+                <div class="navi2">
+                    <img src="chef.png" alt="">
+                </div>
+       
+    </div>
+     <div class="el9" id="contact">
+        <div id="el9a">
+                <div id="res">
+                <h1><u>Reservations</u></h1>
+                <br><br>
+                <h3>Please call</h3>
+                <h3>(887) 654-3210</h3>
+                </div>
+                <div id="add">
+                    <h1><u>Address</u></h1>
+                    <br><br>
+                    <h3>4321 California St,</h3>
+                    <h3>San Francisco, CA 12345</h3>
+                </div>
+                <div id="add">
+                    <h1><u>Opening hours</u></h1>
+                    <br><br>
+                    <h3>Mon-Thurs: 10:00 AM - 11:00 PM</h3>
+                    <h3>Fri-Sun: 11:00 AM - 02:00 AM</h3>
+                </div>
+            
+        </div>
+       <div class="el9b">
+           <u><h1>SEND US A MESSAGE</h1></u><br><br>
+            <input type="text" placeholder="Name" required style="width:30%; padding: 10px;"><br><br>
+            <input type="email" placeholder="Email" required style="width:30%; padding: 10px;" ><br><br>
+            <input type="message" placeholder="Message" required style="width:30%; padding:30px;"><br><br>
+                <button type="submit">SEND MESSAGE</button>
+        </div>    
+     </div> 
+
+   
+    
+</body>
+</html>
